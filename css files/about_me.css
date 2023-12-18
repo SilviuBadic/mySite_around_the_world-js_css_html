@@ -1,0 +1,226 @@
+body{
+  background-color: rgb(243, 238, 238);
+ 
+}
+
+
+.main_container{
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.about_myself{
+  width: 900px;
+  height: 300px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  
+}
+
+.welcome{
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title_about_me{
+  font-size: 80px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.my_description{
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.some_pictures{
+  width: 5000px;
+  height: 500px;
+  color: black;
+  margin-top: 40px;
+  display: flex;
+  position: relative;
+  padding-left: 500px;
+  overflow: hidden;
+}
+
+.firstClone,
+.lastClone{
+  display: inline-block;
+  margin-right: 20px;
+  width: 500px;
+}
+
+.pic1{
+  display: inline-block;
+  margin-right: 20px;
+  width: 500px;
+}
+
+.pic2{
+  display: inline-block;
+  width: 500px;
+  margin-right: 20px;
+}
+
+.pic3{
+  display: inline-block;
+  width: 500px;
+  margin-right: 20px;
+}
+
+.pic4{
+  display: inline-block;
+  width: 500px;
+  padding-right: 20px;
+}
+
+.pic5{
+  display: inline-block;
+  width: 500px;
+  margin-right: 20px;
+}
+
+.pic6{
+  display: inline-block;
+  width: 500px;
+  margin-right: 20px;
+}
+
+.pic7{
+  display: inline-block;
+  width: 500px;
+  margin-right: 20px;
+}
+
+.guimaraes_pic{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.bethany_pic{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.duoro_pic{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.eroilor_pic{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.matosinhos_pic{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.marrakesh_pic{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.plaza_pic{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.madrid_pic{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.delaware_pic{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.big_description{
+  height: 800px;
+  width: 1000px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  font-size: 26px;
+}
+
+.small_logo{
+  position: absolute;
+  top:30px;
+  right:50px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.contact{  
+  margin-bottom: 0;
+}
+
+  .arrow_box{
+    position: absolute;
+    top: 650px;
+    left: 1500px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    border-top: 8px solid black;
+    border-right: 8px solid black;
+    opacity: 0.5;
+   
+    }
+
+    .arrow_box:hover{
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    .arrow_box2{
+      position: absolute;
+      top: 650px;
+      left: 150px;
+      width: 30px;
+      height: 30px;
+      transform: rotate(45deg);
+      border-left: 8px solid black;
+      border-bottom: 8px solid black;
+      opacity: 0.1;
+      }
+  
+      .arrow_box2:hover{
+        opacity: 1;
+        cursor: pointer;
+      }
+
+.main_container{
+  overflow: hidden;
+}
+
+.some_pictures img:hover{
+  filter: grayscale(50%);
+  scale: 1.05;
+}

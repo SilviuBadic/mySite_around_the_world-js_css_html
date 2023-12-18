@@ -1,0 +1,237 @@
+body{
+  background-color: rgb(243, 238, 238);
+  width: 100%;
+}
+
+
+.pic1 img{
+  width: 100%;
+}
+
+.box_buttons{
+  position: absolute;
+  display: flex;
+  width: 80%;
+  height: 600px;
+  margin-left: 150px;
+  background-color: rgb(243, 238, 238);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  animation: fadeinout 1.5s linear;
+}
+
+
+@keyframes fadeinout {
+  0% { opacity: 0; height: 0px; }
+  55% { height: 300px; }
+  100% { opacity: 1;}
+}
+
+
+
+
+.infos{
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  animation: fadeinout3 3s alternate;
+  
+}
+
+@keyframes fadeinout3 {
+  0% { opacity: 0; }
+  55% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+
+.in_touch{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: rgb(78, 34, 34);
+  display: block;
+  
+}
+
+.address{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.instagram{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 25px;
+  opacity: 0.5;
+}
+
+.main_buttons{
+  font-family:'Courier New', Courier, monospace;
+  width: 50%;
+  float: right;
+  height: 600px;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.buttons_list{
+  list-style-type: none;
+  font-size: 50px;
+  text-align: left;
+  margin: 60px;
+  position: absolute;
+  top: 50px;
+  right: 270px;
+  animation: fadeinout2 2s linear;
+}
+
+@keyframes fadeinout2 {
+  0% { opacity: 0; }
+  55% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+
+.buttons_list li{
+  padding-bottom: 30px;
+}
+
+.buttons_list:hover{
+  cursor: pointer;
+}
+
+.instagram{
+  cursor: pointer;
+}
+
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  color: red;
+  background-color: gray;
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  animation-duration: 6s;
+  animation-name: moving;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}
+
+
+@keyframes moving {
+  0% { transform:translate(0);
+}
+  10% {
+    transform:translateY(-138px);background-color: yellow;
+  }
+  50% {
+    transform:translateY(-220px);background-color:orange;
+  }
+  100% {
+    transform:translateY(-290px);background-color:brown;
+  }
+}
+
+  .circle2{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    color: red;
+    background-color: gray;
+    position: absolute;
+    top: 20px;
+    left: 770px;
+    animation-duration: 20s;
+    animation-name: moving2;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    z-index: 100;
+  }
+  
+  
+  @keyframes moving2{
+    0% { transform:translate(0);
+  }
+    10% {
+      transform:translateY(100px);background-color: yellow;
+    }
+    20% {
+      transform:translateY(200px);background-color: orange;
+    }
+    30% {
+      transform:translateY(290px);background-color: brown;
+    }
+    40% {
+      transform:translateY(380px);background-color: yellow;
+    }
+    50% {
+      transform:translateY(470px);background-color: orange;
+    }
+  }
+.home_but:hover{
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.home_but,
+.bout_me{
+  text-decoration: none;
+}
+
+.bout_me:hover{
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.small_logo{
+  position: absolute;
+  top:30px;
+  right:50px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.get_in_touch{
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-weight: 200;
+  color: black;
+}
+
+.button_address{
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+.my_social_m{
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+
+}
+
+.my_instagram_acc{
+  opacity: 0.5;
+  text-decoration: none;
+  margin-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2;
+  color: black;
+
+}
+
+.my_instagram_acc:hover{
+  opacity: 0.8;
+}

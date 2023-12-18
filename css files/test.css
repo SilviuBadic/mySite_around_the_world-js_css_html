@@ -1,0 +1,23 @@
+.zero{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.unu{
+  height: 100px;
+  border: 1px solid red;
+}
+
+.doi{
+  height: 400px;
+  border: 1px solid red;
+}
+
+.trei{
+  height: 100px;
+  border: 1px solid red;
+}

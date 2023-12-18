@@ -1,0 +1,334 @@
+*
+
+.main_profile_pic{
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.drinking_coffee{
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.name{
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  color:white
+}
+
+.description{
+  font-size: 20px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  color:white;
+}
+
+.passion{
+  font-size: 30px;
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  color:white;
+}
+
+.about_me{
+  background-color: white;
+  font-size: 16px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+}
+
+.small_logo{
+  position: absolute;
+  top:30px;
+  right:50px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.short_description{
+  height: 200px;
+  width: 460px;
+  font-size: 19px;
+  margin-left:100px;
+  margin-top: 70px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+}
+
+
+.js-certificate{
+  height: 220px;
+  display: inline-block;
+  top: 40px;
+  left: 800px;
+  position: absolute;
+}
+
+.js-certificate img{
+  height: 100%
+
+}
+
+.js-certificate2{
+  height: 220px;
+  display: inline-block;
+  bottom: 20px;
+  right: 50px;
+  position: absolute;
+ 
+}
+
+.js-certificate2 img{
+  height: 100%
+
+}
+
+.travel_album{
+  height: 2500px;
+  background-color: rgb(243, 238, 238);
+  border: 1px solid red;
+  position: relative;
+  border: none;
+}
+
+.selected_albums{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size:40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bold_title{
+  font-size: 19px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.album_with_description{
+  position: absolute;
+  top: 250px;
+  right: 170px;
+  width: 550px;
+  height: 460px;
+  border: 1px solid #2e147d;
+  display: flex;
+  flex-direction: column;
+  border:none;
+}
+
+.albums_picture{
+  display: block;
+  width: 100%;
+  height: 400px;
+  transition: transform linear;
+  transition-duration: 1s;
+}
+
+.albums_picture:hover .first_pic{
+  cursor: pointer;
+  transform: translateY(-80px);
+  animation: moveup 2s ease-in forwards;
+
+}
+
+@keyframes moveup {
+  0% { transform:translateY(0);
+}
+
+  50% {
+    transform:translateY(-80px);
+  }
+  100% {
+    transform:translateY(0px);
+  }
+}
+
+.albums_title{
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+
+.albums_title:hover .albums_style{
+  text-decoration: underline;
+  color:green;
+  cursor: pointer;
+}
+
+@keyframes rotate{
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+.album_description{
+  display: block;
+  width: 100%;
+}
+
+
+.first_pic{
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.albums_style{
+  font-style: 34px;
+  color: rgb(21, 69, 41);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.descriptions_style{
+  font-style: 16px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  color: black;
+}
+
+.album_with_description2{
+  position: absolute;
+  top: 450px;
+  left: 170px;
+  width: 550px;
+  height: 460px;
+  border: 1px solid #2e147d;
+  display: flex;
+  flex-direction: column;
+  border:none;
+}
+
+.album_with_description3{
+  position: absolute;
+  top: 1000px;
+  right: 170px;
+  width: 550px;
+  height: 460px;
+  border: 1px solid #2e147d;
+  display: flex;
+  flex-direction: column;
+  border:none;
+  
+}
+
+.album_with_description4{
+  position: absolute;
+  top: 1200px;
+  left: 170px;
+  width: 550px;
+  height: 460px;
+  border: 1px solid #2e147d;
+  display: flex;
+  flex-direction: column;
+  border:none;
+}
+
+.album_with_description5{
+  position: absolute;
+  top: 1700px;
+  right: 200px;
+  width: 500px;
+  height: 460px;
+  border: 1px solid #2e147d;
+  display: flex;
+  flex-direction: column;
+  border:none;
+  margin-bottom: 20px;
+}
+
+.album_with_description6{
+  position: absolute;
+  top: 1900px;
+  left: 170px;
+  width: 550px;
+  height: 460px;
+  border: 1px solid #2e147d;
+  display: flex;
+  flex-direction: column;
+  border:none;
+}
+
+.travel_album{
+  border-color: gray;
+}
+
+
+.contact{
+  background-color: gray;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  color: white;
+}
+
+.bount_pic{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 60px;
+  left: 500px;
+  border-radius: 150px;
+  opacity: 0.9;
+}
+
+.contact_box{
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.my_instagram{
+  font-size: 20px;
+  cursor: pointer;
+  color:white;
+}
+
+.my_instagram:hover{
+  color:lightblue;
+}
+
+.my_address{
+  font-size: 40px;
+}
+
+.small_ball{
+  position: absolute;
+  bottom: 10px;
+  right: 400px;
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  animation-name: bouncing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+@keyframes bouncing{
+  0% { transform: translate(0); border-radius: 20px; width: 40px; height: 40px; background-color: lightblue;}
+  100% {transform: translateY(-650px); background-color: orange; opacity: 0.7;}
+}
+
+.hello{
+  padding-left: 10px;
+}
+.touch{
+  font-size: 20px;
+}
